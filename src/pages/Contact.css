@@ -1,0 +1,32 @@
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 5rem;
+}
+
+label{
+    display: flex;
+    text-align: left;
+}
+
+.contact-input{
+    display: flex;
+    text-align: left;
+    padding: 8px 50px;
+}
+
+.contact-heading{
+    margin: 3rem;
+}
+
+form{
+    background-color: #ccc;
+    padding: 2rem 2rem;
+}
+
+@media (max-width: 800px){
+    .contact {
+        display: inline;
+        margin: 1rem 3rem;
+    }
+}

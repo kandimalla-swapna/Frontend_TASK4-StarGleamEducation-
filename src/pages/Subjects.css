@@ -1,0 +1,78 @@
+
+.heading1,
+.para {
+    margin: 2.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading2,
+.para {
+    margin: 2rem auto;
+}
+
+.school-name {
+    text-decoration: none;
+    margin: 2rem 4rem;
+    text-align: left !important;
+}
+
+.pdf-link{
+    text-align: left !important;
+    margin: 2rem 4rem;
+}
+
+.pdf-links{
+    color: blue;
+    font-weight: normal;
+}
+
+
+.dd-img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+.school-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    border: 1px solid #FFC000;
+    border-radius: 10px;
+    padding: auto 10px;
+}
+
+@media (max-width: 1200px) {
+
+    .dd-img {
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .school-h{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 830px){
+    .school-imgs{
+        display: inline;
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        padding: 1rem 10px;
+    }
+
+    .heading1{
+        font-size: 20px;
+    }
+}

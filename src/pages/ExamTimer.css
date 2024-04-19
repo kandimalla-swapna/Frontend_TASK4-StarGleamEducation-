@@ -1,0 +1,25 @@
+.exam-timer{
+    background-color: #fff;
+    margin: 5rem 5rem;
+
+}
+
+.exam-heading{
+    color: rgb(58, 58, 189);
+    padding : 2rem 2rem;
+}
+
+.exam-input{
+    border: white;
+    background-color: #ccc;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    padding: 5px;
+}
+
+.go-btn{
+    padding: 10px;
+    background-color: #FFC000;
+    border-color: #FFC000;
+    margin-left: 1.5rem;
+}
